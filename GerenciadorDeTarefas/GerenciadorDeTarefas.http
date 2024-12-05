@@ -1,0 +1,25 @@
+@GerenciadorDeTarefas_HostAddress = http://localhost:5276
+
+GET {{GerenciadorDeTarefas_HostAddress}}/tarefas/
+Accept: application/json
+
+###
+
+POST {{GerenciadorDeTarefas_HostAddress}}/tarefas/
+Content-Type: application/json
+{
+}
+
+###
+
+DELETE {{GerenciadorDeTarefas_HostAddress}}/tarefas/
+Accept: application/json
+
+###
+
+PUT {{GerenciadorDeTarefas_HostAddress}}/tarefas/
+Content-Type: application/json
+{
+}
+
+###
